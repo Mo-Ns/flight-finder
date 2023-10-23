@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  &__item {
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid $border-color;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+    &:first-child {
+      border-left: 0;
+    }
+
+    &:hover:not(.active) {
+      background-color: $light-primary;
+      color: $black;
+    }
+
+    &.active {
+      border-bottom-color: $primary;
+      background-color: $light-primary;
+      color: $primary;
+    }
+  }
+
+  &__link {
+    font-weight: bold;
+  }
+}

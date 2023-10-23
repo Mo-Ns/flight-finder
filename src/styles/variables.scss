@@ -1,0 +1,51 @@
+// Color system
+$primary:  #af1d65;
+$dark-primary: #840a55;
+$light-primary: #fff4fa;
+
+$secondary:  #65839d;
+$white:    #fff;
+$black:    #000;
+
+$grey: #859db1;
+$light-grey: #dee2e6;
+$green: #20c997;
+$blue: #009ee3;
+$braun: #82474a;
+$red: #C90038;
+$light-green: #D0FFD6;
+$light-red: #ffedfe;
+$dark-green: #4d6c51;
+
+$body-background-color: #f7f7f7;
+$border-color: #d9dde8;
+
+$font-family-base: 'Gabarito', sans-serif;
+
+$border-radius: 8px;
+$box-shadow: 0 3px 5px -1px #00005e0a,0 6px 10px #00005e08,0 1px 18px #00005e05;
+$dropdown-item-hover-bg: #F4F6F6;
+
+$input-height: 56px;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$spacers: (
+  0: 0,
+  5: 5px,
+  10: 10px,
+  15: 15px,
+  20: 20px,
+);
+
+$grid-columns: 12;
+$grid-gutter-width: 16px;
+
+// Durations
+$shortTransition: 150ms;

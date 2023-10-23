@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.chip {
+  padding: 2px 12px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  color: $white;
+
+  &.green {
+    background-color: $green;
+  }
+
+  &.blue {
+    background-color: $blue;
+  }
+
+  &.braun {
+    background-color: $braun;
+  }
+
+  &.light-green {
+    color: $dark-green;
+    background-color: $light-green;
+  }
+
+  &.light-red {
+    color: $red;
+    background-color: $light-red;
+  }
+}

@@ -1,0 +1,80 @@
+@import "../../styles/variables";
+@import "../../styles/mixins/breakpoint";
+
+.flight-card {
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+  }
+
+  cursor: pointer;
+
+  &__block {
+    border-radius: 8px;
+    background-color: rgba(255,255,255,.75);
+    padding: 16px;
+    height: 100%;
+
+    &--right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      border-style: dashed;
+      border-color:$light-grey;
+      border-width: 0 0 0 2px;
+
+
+      @include media-breakpoint-down(sm) {
+        border-width: 2px 0 0 0;
+      }
+    }
+  }
+}
+
+.route-line {
+  display: block;
+  height: 2px;
+  background-color: $light-grey;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  &--start:before {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: $light-grey;
+    position: absolute;
+    z-index: 2;
+    top: -2px;
+    left: 0;
+  }
+
+  &--end:after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: $light-grey;
+    position: absolute;
+    z-index: 2;
+    top: -2px;
+    right: 0;
+  }
+}
+
+.fix-space {
+  margin-bottom: 13px;
+  margin-top: 6px;
+}
+
+.warning-text {
+  color: $red;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}

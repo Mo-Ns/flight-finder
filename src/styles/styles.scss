@@ -1,0 +1,59 @@
+@import "./variables";
+@import "./utilities/display";
+@import "./utilities/form";
+@import "./utilities/spacing";
+@import "./utilities/text";
+@import "./mixins/columns";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family-base;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+  color: #2e475d;
+}
+
+body {
+  background-color: $body-background-color;
+  font-family: $font-family-base;
+  padding: 16px;
+  min-width: 360px;
+}
+
+#app {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.shadow {
+  box-shadow: $box-shadow;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.row {
+  @include make-row();
+
+  &.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+@include make-grid-columns();

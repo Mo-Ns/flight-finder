@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+
+.back-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 50%;
+  background-color: $white;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+
+  &:hover {
+    color: $black;
+  }
+}

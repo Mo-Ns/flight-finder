@@ -1,0 +1,106 @@
+{
+  "flights": [
+    {
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af",
+      "origin": "FRA",
+      "destination": "CGN",
+      "departureDate": "2023-11-13",
+      "returnDate": "2023-11-21",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 128,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice",
+      "departureDateTime": "2023-11-13T08:30:00",
+      "arrivalDateTime": "2023-11-21T10:00:00",
+      "duration": "01:30",
+      "nonstop": true
+    },
+    {
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af",
+      "origin": "FRA",
+      "destination": "CGN",
+      "departureDate": "2023-11-13",
+      "returnDate": "2023-11-21",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 96,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice",
+      "departureDateTime": "2023-11-13T09:30:00",
+      "arrivalDateTime": "2023-11-21T11:00:00",
+      "duration": "01:30",
+      "nonstop": true
+    },
+    {
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af",
+      "origin": "FRA",
+      "destination": "CGN",
+      "departureDate": "2023-11-13",
+      "returnDate": "2023-11-21",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 104,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice",
+      "departureDateTime": "2023-11-13T11:00:00",
+      "arrivalDateTime": "2023-11-21T13:20:00",
+      "duration": "02:20",
+      "nonstop": true
+    },
+    {
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af",
+      "origin": "FRA",
+      "destination": "CGN",
+      "departureDate": "2023-11-13",
+      "returnDate": "2023-11-21",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 189,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice",
+      "departureDateTime": "2023-11-13T13:00:00",
+      "arrivalDateTime": "2023-11-21T16:40:00",
+      "duration": "03:40",
+      "nonstop": false
+    },
+    {
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af",
+      "origin": "FRA",
+      "destination": "CGN",
+      "departureDate": "2023-11-13",
+      "returnDate": "2023-11-21",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 88,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice",
+      "departureDateTime": "2023-11-13T18:00:00",
+      "arrivalDateTime": "2023-11-21T20:00:00",
+      "duration": "02:00",
+      "nonstop": true
+    },
+    {
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af",
+      "origin": "FRA",
+      "destination": "CGN",
+      "departureDate": "2023-11-13",
+      "returnDate": "2023-11-21",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 151,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice",
+      "departureDateTime": "2023-11-13T21:00:00",
+      "arrivalDateTime": "2023-11-21T23:15:00",
+      "duration": "02:15",
+      "nonstop": true
+    }
+  ]
+}

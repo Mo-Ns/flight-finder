@@ -1,0 +1,19 @@
+@import "../variables";
+
+.form-field {
+  position: relative;
+  height: 56px;
+
+  &__prefix {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: $primary;
+  }
+}
+
+.form-field__prefix + .form-field__infix {
+  input[type="text"] {
+    padding-left: 50px;
+  }
+}
